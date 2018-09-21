@@ -99,11 +99,6 @@ class CardMarketSession:
 
 if __name__ == "__main__":
     # Tests:
-    import crednetials
-    cm = CardMarketSession('o8k5KkPRsPcATLlQ',
-                           'JzDyGQ4saapNNOWcP52nuqkyByl1Hhtf',
-                           'y3KatFEbJymlwf8stIZUJSZrH9PFo4WG',
-                           'y83NntEs2t0eYtwRKSnvXgfjmQdTJ6i4')
 
     print(cm.get_products_by_name("giant spider"))
     print(cm.request_count)
